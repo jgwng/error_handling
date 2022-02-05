@@ -43,4 +43,3 @@ extension TaskX<T extends Either<Object, U>, U> on Task<T> {
     );
   }
 }
-

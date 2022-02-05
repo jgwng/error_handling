@@ -1,13 +1,13 @@
 import 'dart:convert';
 import 'dart:io';
+
 import 'package:error_handling_either/model/post.dart';
 import 'package:http/http.dart' as http;
 
 class PostService {
   Future<Post> getOnePost() async {
     try {
-      var response = await http
-          .get(Uri.parse('htt://jsonplaceholder.typicode.com/posts/1'));
+      var response = await http.get(Uri.parse('https://jsonplaceholder.typicode.com/posts/1'));
       var result = jsonDecode(response.body);
 
       Post post = Post.fromJson(result);

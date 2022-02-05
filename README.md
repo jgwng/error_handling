@@ -43,6 +43,15 @@
  Option 또한 Either와 비슷하다. 보통 option은 에러방지 보다는 리턴 값의 null 방지를 위해 사용한다.
  Either를 통해 error 핸들링 강화 및 불필요한 타입 선언을 방지 할 수 있다.
  
+ ## 앱 화면 캡쳐
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/71699167/152634919-723d5201-4341-4032-af7e-cf4d95643e7f.png" width="200" height="400"/>
+ 
+ <img src="https://user-images.githubusercontent.com/71699167/152634920-0ed54633-933f-4c86-b4e4-efb1ae7dfa82.png" width="200" height="400" />
+ 
+ <img src="https://user-images.githubusercontent.com/71699167/152634921-20698ca4-d2b2-4200-92c0-b7addf918ad6.png" width="200" height="400"/>
+ 
+
  
 ## 참고사항
  해당 프로젝트의 코드 기반은 - https://resocoder.com/category/tutorials/flutter/error-handling/을 기반으로 작성하였다.

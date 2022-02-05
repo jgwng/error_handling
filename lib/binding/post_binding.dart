@@ -1,4 +1,4 @@
-import 'package:error_handling_either/post_controlller.dart';
+import 'package:error_handling_either/controller/post_controlller.dart';
 import 'package:get/get.dart';
 
 class PostBinding extends Bindings {
